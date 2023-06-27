@@ -10,6 +10,9 @@ namespace Ordenamiento
     {
         static void Main(string[] args)
         {
+            //Lo que hace esta funcion es acomodar los elementos de menor a mayor
+            //Comparando pares de datos SIN llegar hasta el ultimo indice del arreglo
+            //En este caso el metodo "Ordenar" utiliza los indices como anclas para comparar los datos dentro del indice.
             Arreglo ordenamiento = new Arreglo(6);
             ordenamiento.Agregar(5);
             ordenamiento.Agregar(1);
